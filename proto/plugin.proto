@@ -1,0 +1,29 @@
+syntax = "proto3";
+package proto;
+
+message EventsRequest {
+    string pluginInterface = 1;
+}
+
+message EventsResponse {
+    bytes value = 1;
+}
+
+message InteractionRequest {
+    string pluginInterface = 1;
+    string function = 2;
+}
+
+message InteractionResponse {
+    string value = 1;
+}
+
+service Plugin {
+    rpc OnLoad(EventsRequest) returns (EventsResponse);
+    rpc OnUnload(EventsRequest) returns (EventsResponse);
+    rpc OnInstall(EventsRequest) returns (EventsResponse);
+    rpc OnUninstall(EventsRequest) returns (EventsResponse);
+    rpc OnStart(EventsRequest) returns (EventsResponse);
+    rpc OnStop(EventsRequest) returns (EventsResponse);
+    rpc Interaction(InteractionRequest) returns (InteractionResponse);
+}
