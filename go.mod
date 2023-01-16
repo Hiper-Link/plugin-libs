@@ -3,14 +3,15 @@ module github.com/Hiper-Link/plugin-libs
 go 1.19
 
 require (
-	github.com/Hiper-Link/go-plugin v0.0.0-20230110161706-34911b23bcc9
-	github.com/golang/protobuf v1.5.2
+	github.com/Hiper-Link/go-plugin v0.0.0-20230116094800-b4f1b824a7cc
 	golang.org/x/net v0.5.0
-	google.golang.org/grpc v1.51.0
+	google.golang.org/grpc v1.52.0
+	google.golang.org/protobuf v1.28.1
 )
 
 require (
 	github.com/fatih/color v1.13.0 // indirect
+	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/hashicorp/go-hclog v1.4.0 // indirect
 	github.com/hashicorp/yamux v0.1.1 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
@@ -19,6 +20,5 @@ require (
 	github.com/oklog/run v1.1.0 // indirect
 	golang.org/x/sys v0.4.0 // indirect
 	golang.org/x/text v0.6.0 // indirect
-	google.golang.org/genproto v0.0.0-20230109162033-3c3c17ce83e6 // indirect
-	google.golang.org/protobuf v1.28.1 // indirect
+	google.golang.org/genproto v0.0.0-20230113154510-dbe35b8444a5 // indirect
 )
