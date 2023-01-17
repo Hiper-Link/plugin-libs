@@ -3,7 +3,7 @@ module github.com/Hiper-Link/plugin-libs
 go 1.19
 
 require (
-	github.com/Hiper-Link/go-plugin v0.0.0-20230116094800-b4f1b824a7cc
+	github.com/Hiper-Link/go-plugin v0.0.0-20230117102528-2a418ceab61e
 	golang.org/x/net v0.5.0
 	google.golang.org/grpc v1.52.0
 	google.golang.org/protobuf v1.28.1

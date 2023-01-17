@@ -2,6 +2,8 @@ github.com/Hiper-Link/go-plugin v0.0.0-20230116082831-775a125fdd87 h1:PaOHU/3gSM
 github.com/Hiper-Link/go-plugin v0.0.0-20230116082831-775a125fdd87/go.mod h1:d24BRXswUa20RmD6wDDhaozEEol6BpGcOaDQ+s4WpIc=
 github.com/Hiper-Link/go-plugin v0.0.0-20230116094800-b4f1b824a7cc h1:TwTH5KW0+VXFke1si9bo2w1gNAZUnXqwotlnunceSPg=
 github.com/Hiper-Link/go-plugin v0.0.0-20230116094800-b4f1b824a7cc/go.mod h1:AbN7QnGcSZqZtK4qgLPV/so+Y+akNGHqE1QsVGvZ8VA=
+github.com/Hiper-Link/go-plugin v0.0.0-20230117102528-2a418ceab61e h1:S9/ZFFjvTDLzNYv2Xk5GlU8FWQ1HHi2PMHhJCfPP/no=
+github.com/Hiper-Link/go-plugin v0.0.0-20230117102528-2a418ceab61e/go.mod h1:AbN7QnGcSZqZtK4qgLPV/so+Y+akNGHqE1QsVGvZ8VA=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
